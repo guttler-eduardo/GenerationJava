@@ -8,11 +8,8 @@ public class Sons {
 		Cavalo cavalo = new Cavalo();
 		Preguica preguica = new Preguica();
 		
-		preguica.setIdade(42);
+		cachorro.emitirSom();
 		cavalo.emitirSom();
-		cachorro.Correr();
-		cavalo.Correr();
-		preguica.subirArvore();
-		System.out.println(preguica.idade);
+		preguica.emitirSom();
 	}
 }

@@ -1,12 +1,12 @@
 package animais;
 
-public class Animal {
+public abstract class Animal {
 
 	String nome;
 	int idade;
 	
 	public void emitirSom() {
-		System.out.println("Barulho");
+		System.out.println("O animal está emitindo um som");
 	}
 
 	public String getNome() {
